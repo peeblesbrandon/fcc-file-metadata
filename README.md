@@ -1,13 +1,16 @@
 
 # API Project: File Metadata Microservice for freeCodeCamp
-[![Run on Repl.it](https://repl.it/badge/github/freeCodeCamp/boilerplate-project-filemetadata)](https://repl.it/github/freeCodeCamp/boilerplate-project-filemetadata)
-###    User stories:
-1. I can submit a form that includes a file upload.
-2. The form file input field  has the "name" attribute set to "upfile". We rely on this in testing.
-3. When I submit something, I will receive the file name and size in bytes within the JSON response
 
-### Usage :
-* Go to the main page, and upload a file using the provided form.
+Simple app to test the `multer` package allow users to upload indiviudal files and receive a JSON response containing basic metadata about the file. 
 
-### Hint:
-* To handle the file uploading you should use the [multer](https://www.npmjs.com/package/multer) npm package.
+[Click here to view the live demo](https://file-metadata-bsp.glitch.me).
+
+_This app was built according to [freeCodeCamp specifications](https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/file-metadata-microservice) as part of their Full-Stack Web Development curriculum._
+
+## Built with
+* Node.js
+* Express
+* Glitch (host)
+
+## Author
+Brandon Peebles
